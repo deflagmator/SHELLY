@@ -4,8 +4,8 @@
  * @authors   https://github.com/shelly-tools/shelly-script-examples/graphs/contributors
  *
  * This script is intended to control a Shelly RGBW2 White LED on channel 4 with a Shelly Plus  i4 button 1 and 2
- * Button 2 function dimming brighness with long_press, single_push  on/off , double_push 100% brightness
- * Button 1 funcion to switch ON  all the other devices (LED 100% lounge, dining room, and kitchen)
+ * Button 2 (event.info.id === 2) function dimming brighness with long_press, single_push  on/off , double_push 100% brightness
+ * Button 1 (event.info.id === 1)funcion to switch ON  all the other devices (LED 100% lounge, dining room, and kitchen)
  *
  * 
  */
